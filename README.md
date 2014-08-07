@@ -7,6 +7,17 @@ Set the height of each element to the tallest element
  * Step 3 : call the function on elements you want to resize
 ```javascript
 $(function(){
-  $('.div-to-resize').sameSize();
+  $('.elm-to-resize').sameSize();
 });
+```
+Example :
+
+```HTML
+<body>
+<div class="elm-to-resize"></div>
+<div class="elm-to-resize"></div>
+<div class="elm-to-resize"></div>
+... any code you want ...
+<div class="elm-to-resize"></div>
+</body>
 ```
