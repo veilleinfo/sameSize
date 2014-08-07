@@ -1,4 +1,5 @@
 ;
+// sameSize - http://www.veilleinformatique.com/
 // Set the height of each element to the highest element
 $.fn.sameSize = function () {
     var maxH = 0;
